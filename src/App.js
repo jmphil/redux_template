@@ -7,7 +7,7 @@ import imagine from './go_imagine.jpg'
 function App(props) {
   return (
     <>
-    {/* <h1 className="text-center text-4xl">Get Out and Explore!</h1> */}
+    
   
     <Container className="container-fixed col-xl-1 text-4xl h-25">
       
