@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom'
 import Baselayout from './components/layout/BaseLayout';
-import Classes from './components/Classes';
-import Hooks from './components/Hooks';
+import Classes from './components/Locations';
+import Hooks from './components/Events';
 import {createStore} from 'redux';
 import { Provider } from "react-redux";
 import reducer from './reducers/reducerTemplate';
+import './index.css';
+
 
 const saveToLocalStorage = (reduxGlobalState) => {
 

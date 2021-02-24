@@ -1,11 +1,11 @@
 
 //this is an aciton creator and it return an obj{}
-export const increment = (n) => {
+export const increment = (data) => {
     
 
     return {
         type: "INCREMENET",
-        data: n 
+        data: data
     }
 }
 
