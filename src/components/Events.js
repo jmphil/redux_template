@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import {useDispatch, useSelector,} from 'react-redux';
 import {increment} from '../actions/templateActions';
-import {DivSC} from './Styles';
+
 
 const Hooks = () => {
     //getting global state
@@ -20,9 +20,9 @@ const Hooks = () => {
     }, [])
     return (
         <div>
-            <h1>Hooks</h1>
+            <h1>Events</h1>
             <h2>{count}</h2>
-            <button onClick={()=>dispatch(increment())}>Click Me</button>
+            {/* <button onClick={()=>dispatch(increment())}>Click Me</button> */}
         </div>
         
        

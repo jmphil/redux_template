@@ -6,9 +6,10 @@ class Classes extends Component {
     render() {
         return (
             <div>
-                <h1>Classes</h1>
+                <h1>Locations</h1>
                 <h2>{this.props.count}</h2>
-                <button onClick={()=>this.props.increment()}>Click Me</button> 
+                {/* <button onClick={()=>this.props.increment()}>Click Me</button>  */}
+                <h3>Locations</h3>
             </div>
         )
     }
